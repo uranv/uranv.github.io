@@ -2,7 +2,7 @@
 title: Home
 ---
 
-[<img src="https://simpleicons.org/icons/github.svg" style="max-width:15%;min-width:40px;float:right;" alt="Github repo" />](https://github.com/uranv)
+[<img src="https://avatars.githubusercontent.com/u/168523312?v=4" style="max-width:15%;min-width:40px;float:right;" alt="Github repo" />](https://github.com/uranv)
 
 # Uran's Homepage
 
