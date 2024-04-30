@@ -18,7 +18,7 @@ $$\langle \psi^{(S)} |\hat{\mathcal{O}}|\psi^{(S)}\rangle\equiv\langle \psi^{(H)
 link: [posts](/posts/) with
 
 ```markdown
-[posts](\posts\)
+[posts](/posts/)
 ```
 
 # All Posts
