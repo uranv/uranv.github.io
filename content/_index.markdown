@@ -11,7 +11,7 @@ title: Home
 $$\langle \psi^{(S)} |\hat{\mathcal{O}}|\psi^{(S)}\rangle\equiv\langle \psi^{(H)} |\hat{\mathcal{O}}|\psi^{(H)}\rangle$$
 
 
-```bash
+```latex
 $$\langle \psi^{(S)} |\hat{\mathcal{O}}|\psi^{(S)}\rangle\equiv\langle \psi^{(H)} |\hat{\mathcal{O}}|\psi^{(H)}\rangle$$
 ```
 
