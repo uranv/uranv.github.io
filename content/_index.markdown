@@ -8,18 +8,6 @@ title: Home
 
 ## _this is the line for a subtitle_
 
-$$\langle \psi^{(S)} |\hat{\mathcal{O}}|\psi^{(S)}\rangle\equiv\langle \psi^{(H)} |\hat{\mathcal{O}}|\psi^{(H)}\rangle$$
-
-
-```latex
-$$\langle \psi^{(S)} |\hat{\mathcal{O}}|\psi^{(S)}\rangle\equiv\langle \psi^{(H)} |\hat{\mathcal{O}}|\psi^{(H)}\rangle$$
-```
-
-link: [posts](/posts/) with
-
-```markdown
-[posts](/posts/)
-```
 
 # All Posts
 
