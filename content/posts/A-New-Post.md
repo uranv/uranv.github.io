@@ -23,3 +23,17 @@ $$\frac{\partial}{\partial t}\mathcal{H}$$
 日本語コンテンツ
 
 えいえしえ永遠にっしひどき青々オア青青々おえい
+
+
+$$\langle \psi^{(S)} |\hat{\mathcal{O}}|\psi^{(S)}\rangle\equiv\langle \psi^{(H)} |\hat{\mathcal{O}}|\psi^{(H)}\rangle$$
+
+
+```latex
+$$\langle \psi^{(S)} |\hat{\mathcal{O}}|\psi^{(S)}\rangle\equiv\langle \psi^{(H)} |\hat{\mathcal{O}}|\psi^{(H)}\rangle$$
+```
+
+link: [posts](/posts/) with
+
+```markdown
+[posts](/posts/)
+```
