@@ -1,5 +1,5 @@
 ---
 title: About
 ---
-
-This page explains the purpose of this site.
+My Twitter: [@uraniumxtu](https://x.com/uraniumxtu/)
+My Github page: [@uranv](https://github.com/uranv)
