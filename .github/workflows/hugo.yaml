@@ -66,6 +66,7 @@ jobs:
             --gc \
             --minify \
             --ignoreCache \
+            --buildFuture \
             --baseURL "${{ steps.pages.outputs.base_url }}/"   
             
       - name: Upload artifact
