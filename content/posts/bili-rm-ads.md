@@ -2,6 +2,7 @@
 title: bili-rm-ads
 author: uran
 date: '2024-11-12'
+slug: bili-rm-ads
 ---
 
 # bilibili remove ads
