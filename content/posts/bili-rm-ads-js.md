@@ -1,7 +1,7 @@
 ---
 title: bili-rm-ads-js
 author: uran
-date: '2024-11-12'
+date: '2024-11-11'
 slug: bili-rm-ads-js
 ---
 # bilibili remove ads
