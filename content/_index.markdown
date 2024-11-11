@@ -6,7 +6,10 @@ title: Home
 
 # ur's Homepage
 
-## _this is the line for a subtitle_
+## それが虚無ならば虚無自身がこのとほりで
+##    ある程度まではみんなに共通いたします
+## （すべてがわたくしの中のみんなであるやうに
+## 　 みんなのおのおののなかのすべてですから）
 
 
 # All Posts
