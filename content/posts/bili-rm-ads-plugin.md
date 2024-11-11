@@ -2,6 +2,7 @@
 title: bili-rm-ads-plugin
 author: uran
 date: '2024-11-12'
+slug: bili-rm-ads-plugin
 ---
 # bilibili remove ads
 <!-- 页面上代码块 -->
