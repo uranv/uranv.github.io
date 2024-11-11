@@ -2,6 +2,7 @@
 title: bili-rm-ads-js
 author: uran
 date: '2024-11-12'
+slug: bili-rm-ads-js
 ---
 # bilibili remove ads
 修改内容位于：
