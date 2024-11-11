@@ -73,6 +73,9 @@ jobs:
         with:
           path: ./public
 
+      - name: List generated files
+        run: ls -R ./public
+
   # Deployment job
   deploy:
     environment:
