@@ -28,7 +28,7 @@ menu:
 
 params:
   description: "null"
-  footer: "&copy; [uran](https://github.com/uranv) {Year} |  Powered by [Hugo](https://gohugo.io/) | Theme - [xmin](https://github.com/yihui/hugo-xmin)"
+  footer: "&copy; [uran](https://github.com/uranv) {Year} |  Powered by [Hugo](https://gohugo.io/) | Theme - [xmin](https://github.com/uranv/hugo-xmin/tree/master)"
 
 markup:
   highlight:
