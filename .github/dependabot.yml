@@ -4,6 +4,12 @@
 # https://docs.github.com/code-security/dependabot/dependabot-version-updates/configuration-options-for-the-dependabot.yml-file
 
 version: 2
+
+registries:
+  hugo-xmin: 
+    type: git
+    url: https://github.com/uranv/hugo-xmin
+
 updates:
   # Enable version updates for xmin theme
   - package-ecosystem: "gitsubmodule"
