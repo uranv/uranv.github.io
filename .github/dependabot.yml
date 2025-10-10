@@ -5,11 +5,6 @@
 
 version: 2
 
-registries:
-  hugo-xmin: 
-    type: git
-    url: https://github.com/uranv/hugo-xmin
-
 updates:
   # Enable version updates for xmin theme
   - package-ecosystem: "gitsubmodule"
