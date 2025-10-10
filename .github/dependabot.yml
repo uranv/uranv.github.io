@@ -13,8 +13,6 @@ registries:
 updates:
   # Enable version updates for xmin theme
   - package-ecosystem: "gitsubmodule"
-    directory: "/theme/"
+    directory: "/"
     schedule:
-      interval: "weekly"
-    registries:
-      - hugo-xmin
+      interval: "daily"
