@@ -313,7 +313,18 @@ $done({ body: JSON.stringify(obj) });
 </pre>
 
 <!-- 下载按钮 -->
-<button onclick="downloadCode()">Download</button>
+
+<button onclick="downloadCode()" type="button" style="
+  padding: 6px 14px;
+  background-color: #aaaaaa;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+">
+  Download
+</button>
 
 <script>
 function downloadCode() {

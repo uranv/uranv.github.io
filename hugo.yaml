@@ -1,13 +1,20 @@
 baseurl: "/"
 languageCode: "en-us"
 title: "URAN"
-theme: "hugo-xmin"
+
+module:
+  imports:
+    - path: github.com/uranv/hugo-xmin
+      disable: false
+      ref: master
+
 googleAnalytics: ""
 disqusShortname: ""
 ignoreFiles: ["\\.Rmd$", "\\.Rmarkdown$", "_cache$"]
 footnotereturnlinkcontents: "↩"
 
 permalinks:
+  note: "/note/:slug/"
   post: "/post/:slug/"
 
 menu:
@@ -28,7 +35,7 @@ menu:
 
 params:
   description: "null"
-  footer: "&copy; [uran](https://github.com/uranv) {Year} |  Powered by [Hugo](https://gohugo.io/) | Theme - [xmin](https://github.com/uranv/hugo-xmin/tree/master)"
+  footer: "&copy; [uranv](https://github.com/uranv) {Year} |  Powered by [Hugo](https://gohugo.io/) | Theme - [xmin](https://github.com/uranv/hugo-xmin/tree/master)"
 
 markup:
   highlight:

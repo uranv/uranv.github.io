@@ -1,4 +1,0 @@
-[submodule "themes/hugo-xmin"]
-	path = themes/hugo-xmin
-	url = https://github.com/uranv/hugo-xmin.git
-	branch = master
