@@ -15,7 +15,7 @@ slug: rw-mod-vtnd
 
 虚空之拥作为异象的最终奖励还要带负面#(怒)本mod修改了虚空之拥的机制。原版虚空之拥小人会被等效赋予隐藏的怪诞不经特性，我修改了触发“阴森之语”等社交行为时额外判断小人是否具有怪诞不经特性，否则不会触发此类负面社交行为。
 
-<img src="https://raw.githubusercontent.com/uranv/uranv.github.io/4f1d93ef50a27740576ce99f571f7945670ae1ca/content/resources/voidtouchedisnotdisturbing.jpg" alt="voidtouchedisnotdisturbing" style="zoom:33%;" />
+<img src="https://raw.githubusercontent.com/uranv/uranv.github.io/4f1d93ef50a27740576ce99f571f7945670ae1ca/content/resources/voidtouchedisnotdisturbing.jpg" alt="voidtouchedisnotdisturbing" style="zoom:33%;" align="center"/>
 
 ---
 
