@@ -2,7 +2,7 @@
 title: 【Rimworld模组】虚空之拥优化
 author: uran
 date: '2025-12-15'
-slug: bili-rm-ads
+slug: rw-mod-vtnd
 ---
 
 # 【Rimworld模组发布】
