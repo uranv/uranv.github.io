@@ -1,5 +1,5 @@
 ---
-title: bili-rm-ads-plugin
+title: Bilibili插件修改（plugin部分）
 author: uran
 date: '2024-11-11'
 slug: bili-rm-ads-plugin

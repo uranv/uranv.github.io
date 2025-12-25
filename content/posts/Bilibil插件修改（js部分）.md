@@ -1,5 +1,5 @@
 ---
-title: bili-rm-ads-js
+title: Bilibili插件修改（js部分）
 author: uran
 date: '2024-11-11'
 slug: bili-rm-ads-js
