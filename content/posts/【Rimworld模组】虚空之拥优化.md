@@ -50,6 +50,7 @@ slug: rw-mod-vtnd
 
 ---
 
-完整代码和模组发布与Github仓库：https://github.com/uranv/VoidTouchedIsNotDisturbing
+完整代码和模组发布与Github仓库：[https://github.com/uranv/VoidTouchedIsNotDisturbing](https://github.com/uranv/VoidTouchedIsNotDisturbing)
 
-以及Steam创意工坊：https://github.com/uranv/VoidTouchedIsNotDisturbing
+以及Steam创意工坊：[https://github.com/uranv/VoidTouchedIsNotDisturbing](https://github.com/uranv/VoidTouchedIsNotDisturbing)
+
