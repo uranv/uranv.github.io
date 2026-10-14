@@ -1,0 +1,25 @@
+{{ $current := . }}
+<nav class="site-header-nav" aria-label="Main navigation">
+  <a class="site-nav-link{{ if .IsHome }} selected{{ end }}" href="{{ .Site.Home.RelPermalink }}" aria-label="Overview"{{ if .IsHome }} aria-current="page"{{ end }}>
+    <svg aria-hidden="true" viewBox="0 0 16 16" width="16" height="16">
+      <path d="M0 1.75A.75.75 0 0 1 .75 1h4.253c1.227 0 2.317.59 3 1.501A3.744 3.744 0 0 1 11.006 1h4.245a.75.75 0 0 1 .75.75v10.5a.75.75 0 0 1-.75.75h-4.507a2.25 2.25 0 0 0-1.591.659l-.622.621a.75.75 0 0 1-1.06 0l-.622-.621A2.25 2.25 0 0 0 5.258 13H.75a.75.75 0 0 1-.75-.75Zm8.755 3a2.25 2.25 0 0 1 2.25-2.25H14.5v9h-3.757c-.71 0-1.4.201-1.992.572Zm-1.504 7.324V4.998A2.25 2.25 0 0 0 5.003 2.5H1.5v9h3.757a3.75 3.75 0 0 1 1.994.574Z"/>
+    </svg>
+    <span class="site-nav-label">Overview</span>
+  </a>
+  {{ with .Site.GetPage "/post" }}
+  <a class="site-nav-link{{ if or (eq $current.Section "post") (eq $current.Type "tags") }} selected{{ end }}" href="{{ .RelPermalink }}" aria-label="Posts"{{ if or (eq $current.Section "post") (eq $current.Type "tags") }} aria-current="page"{{ end }}>
+    <svg aria-hidden="true" viewBox="0 0 16 16" width="16" height="16">
+      <path d="M2 2.5A2.5 2.5 0 0 1 4.5 0h8.75a.75.75 0 0 1 .75.75v12.5a.75.75 0 0 1-.75.75h-2.5a.75.75 0 0 1 0-1.5h1.75v-2h-8a1 1 0 0 0-.714 1.7.75.75 0 0 1-1.072 1.05A2.495 2.495 0 0 1 2 11.5Zm10.5-1V9h-8c-.356 0-.694.074-1 .208V2.5a1 1 0 0 1 1-1ZM5 12.25v3.25a.25.25 0 0 0 .4.2l1.45-1.087a.25.25 0 0 1 .3 0l1.45 1.087a.25.25 0 0 0 .4-.2v-3.25a.25.25 0 0 0-.25-.25h-3.5a.25.25 0 0 0-.25.25Z"/>
+    </svg>
+    <span class="site-nav-label">Posts</span>
+  </a>
+  {{ end }}
+  {{ with .Site.GetPage "/about" }}
+  <a class="site-nav-link{{ if eq $current.RelPermalink .RelPermalink }} selected{{ end }}" href="{{ .RelPermalink }}" aria-label="About"{{ if eq $current.RelPermalink .RelPermalink }} aria-current="page"{{ end }}>
+    <svg aria-hidden="true" viewBox="0 0 16 16" width="16" height="16">
+      <path d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0Zm0 1.5a6.5 6.5 0 1 1 0 13 6.5 6.5 0 0 1 0-13ZM8 4a1 1 0 1 0 0 2 1 1 0 0 0 0-2Zm-.75 3.25a.75.75 0 0 1 1.5 0v4a.75.75 0 0 1-1.5 0Z"/>
+    </svg>
+    <span class="site-nav-label">About</span>
+  </a>
+  {{ end }}
+</nav>

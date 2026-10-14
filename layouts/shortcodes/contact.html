@@ -1,0 +1,28 @@
+{{- $contact := partial "contact-data.html" . -}}
+<div class="contact-panel">
+  <div class="contact-block">
+    <div class="contact-list">
+      {{ with hugo.Data.contact.affiliation | default "" | strings.TrimSpace }}
+      <div class="contact-row">
+        {{ partial "contact-icon.html" (dict "name" "domain") }}
+        <span class="contact-text">{{ . }}</span>
+      </div>
+      {{ end }}
+      {{ with $contact.profile.location | default "" | strings.TrimSpace }}
+      <div class="contact-row">
+        {{ partial "contact-icon.html" (dict "name" "location") }}
+        <span class="contact-text">{{ . }}</span>
+      </div>
+      {{ end }}
+      {{ range $contact.social }}
+      <div class="contact-row">
+        {{ partial "contact-icon.html" . }}
+        <span class="contact-text"><a href="{{ .url | safeURL }}">{{ .label }}</a></span>
+      </div>
+      {{ end }}
+    </div>
+    {{ with $contact.avatar }}
+    <img class="contact-profile" src="{{ . }}" alt="{{ $contact.alt }}" width="160" height="160">
+    {{ end }}
+  </div>
+</div>

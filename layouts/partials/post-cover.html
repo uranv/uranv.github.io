@@ -1,0 +1,6 @@
+{{- $page := . -}}
+{{- with partial "cover-image.html" . -}}
+<a class="post-cover" href="{{ $page.RelPermalink }}" aria-label="{{ $page.Title }}">
+  <img src="{{ .src }}" alt="{{ .alt }}" loading="lazy" decoding="async"{{ if .width }} width="{{ .width }}" height="{{ .height }}"{{ end }}>
+</a>
+{{- end -}}

@@ -1,45 +1,38 @@
-baseurl: "/"
-languageCode: "en-us"
+baseURL: "https://uranv.github.io/"
+languageCode: "zh-cn"
+defaultContentLanguage: "zh"
 title: "URAN"
 
 module:
   imports:
-    - path: github.com/uranv/hugo-xmin
-      disable: false
-      ref: master
+    - path: github.com/MeiK2333/github-style
 
-googleAnalytics: ""
-disqusShortname: ""
+buildFuture: true
+hasCJKLanguage: true
+enableRobotsTXT: true
 ignoreFiles: ["\\.Rmd$", "\\.Rmarkdown$", "_cache$"]
-footnotereturnlinkcontents: "↩"
 
+# The theme reads content/post; public URLs keep the old /posts/ paths.
 permalinks:
-  note: "/note/:slug/"
-  post: "/post/:slug/"
-
-menu:
-  main:
-    - name: Home
-      url: ""
-      weight: 1
-
-    - name: Posts
-      url: "posts/"
-      weight: 2
-
-    - name: About
-      url: "about/"
-      weight: 3
-
-
+  page:
+    post: "/posts/:slug/"
+  section:
+    post: "/posts/"
 
 params:
-  description: "null"
-  footer: "&copy; [uranv](https://github.com/uranv) {Year} |  Powered by [Hugo](https://gohugo.io/) | Theme - [xmin](https://github.com/uranv/hugo-xmin/tree/master)"
+  # Personal information and social links are maintained in data/contact.yaml.
+  rss: true
+  enableSearch: true
+  custom_css: ["css/custom.css", "css/header.css"]
+  defer_custom_js: ["js/header.js"]
+
+outputs:
+  home: ["HTML", "RSS", "JSON"]
 
 markup:
   highlight:
-    codeFences: false
+    codeFences: true
+    noClasses: false
   goldmark:
     renderer:
       unsafe: true
@@ -48,10 +41,8 @@ markup:
         enable: true
         delimiters:
           block:
-          - - \[
-            - \]
-          - - $$
-            - $$
+            - ['\[', '\]']
+            - ['$$', '$$']
           inline:
-          - - \(
-            - \)
+            - ['\(', '\)']
+            - ['$', '$']

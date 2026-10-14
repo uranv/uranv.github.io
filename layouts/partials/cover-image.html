@@ -1,0 +1,15 @@
+{{- $cover := dict -}}
+{{- with .Params.cover.image | default "" | strings.TrimSpace -}}
+  {{- $src := . | strings.TrimPrefix "/" | relURL -}}
+  {{- $width := 0 -}}
+  {{- $height := 0 -}}
+  {{- with $.Resources.GetMatch . -}}
+    {{- $src = .RelPermalink -}}
+    {{- if in (slice "jpeg" "png" "webp" "gif" "tiff" "bmp") .MediaType.SubType -}}
+      {{- $width = .Width -}}
+      {{- $height = .Height -}}
+    {{- end -}}
+  {{- end -}}
+  {{- $cover = dict "src" $src "alt" ($.Params.cover.alt | default $.Title | plainify) "width" $width "height" $height -}}
+{{- end -}}
+{{- return $cover -}}

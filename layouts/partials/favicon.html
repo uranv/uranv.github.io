@@ -1,0 +1,10 @@
+{{- with hugo.Data.contact.profile.avatar | default "" | strings.TrimSpace -}}
+  {{- $file := printf "static/%s" (. | strings.TrimPrefix "/") -}}
+  {{- $extension := path.Ext . | strings.TrimPrefix "." | lower -}}
+  {{- $mime := printf "image/%s" $extension -}}
+  {{- if eq $extension "jpg" -}}{{- $mime = "image/jpeg" -}}{{- end -}}
+  {{- if eq $extension "svg" -}}{{- $mime = "image/svg+xml" -}}{{- end -}}
+  {{- $image := printf "data:%s;base64,%s" $mime (readFile $file | base64Encode) -}}
+  {{- $favicon := resources.Get "favicon.svg" | resources.ExecuteAsTemplate "images/favicon.svg" (dict "image" $image) -}}
+  <link rel="icon" type="image/svg+xml" href="{{ $favicon.RelPermalink }}">
+{{- end -}}

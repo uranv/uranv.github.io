@@ -1,0 +1,9 @@
+{{- $contact := partial "contact-data.html" . -}}
+<footer class="site-footer container-xl width-full p-responsive">
+  <p class="site-footer-content">
+    © 2026 {{ with $contact.github }}<a href="{{ .url | safeURL }}">{{ $contact.username }}</a>{{ else }}{{ $contact.profile.author }}{{ end }} ·
+    <a href="https://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC 4.0</a> ·
+    Powered by <a href="https://gohugo.io/?utm_source=papermod">Hugo</a> &amp;
+    <a href="https://github.com/MeiK2333/github-style">github-style</a>
+  </p>
+</footer>

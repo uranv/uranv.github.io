@@ -1,0 +1,20 @@
+{{- $profile := hugo.Data.contact.profile | default dict -}}
+{{- $social := slice -}}
+{{- $github := dict -}}
+{{- $email := dict -}}
+{{- range hugo.Data.contact.social -}}
+  {{- if and (.name | default "" | strings.TrimSpace) (.url | default "" | strings.TrimSpace) (.label | default "" | strings.TrimSpace) -}}
+    {{- $social = $social | append . -}}
+    {{- if eq .name "github" -}}{{- $github = . -}}{{- end -}}
+    {{- if eq .name "email" -}}{{- $email = . -}}{{- end -}}
+  {{- end -}}
+{{- end -}}
+{{- $username := $profile.author | default "" -}}
+{{- with $github -}}
+  {{- $username = .label | strings.TrimPrefix "@" -}}
+{{- end -}}
+{{- $avatar := "" -}}
+{{- with $profile.avatar | default "" | strings.TrimSpace -}}
+  {{- $avatar = . | strings.TrimPrefix "/" | relURL -}}
+{{- end -}}
+{{- return (dict "profile" $profile "social" $social "github" $github "email" $email "username" $username "avatar" $avatar "alt" ($profile.alt | default $username)) -}}
