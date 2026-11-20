@@ -28,6 +28,11 @@ cover:
 
 - 改善高级筛选界面交互，包含较多可选项时，新增含搜索功能的界面，代替原有的FloatMenu.
 
+**历史版本:**
+
+- [v1.0.1](posts/rw-mod-filter-update-1/)
+- [v1.0.0](posts/rw-mod-filter/)
+
 ### 发布与反馈
 
 **Github仓库:** https://github.com/uranv/BetterFilter

@@ -36,6 +36,10 @@ cover:
   
 - 修复了不安全的物品定义，可能在 `⁠RimWorld.PawnApparelGenerator+PossibleApparelSet.GiveToPawn(Verse.Pawn pawn)` 方法中引起 `⁠System.InvalidCastException` 错误 
 
+**历史版本:**
+
+- [v1.0.0](posts/rw-mod-filter/)
+
 ### 发布与反馈
 
 **Github仓库:** https://github.com/uranv/BetterFilter

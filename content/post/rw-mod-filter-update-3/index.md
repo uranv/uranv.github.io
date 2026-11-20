@@ -28,6 +28,12 @@ cover:
 - 修改“会腐烂的物品”匹配范围，现在包含有毒垃圾类 `CompProperties_Dissolution` 和尸体类`CompProperties_Rottable` 且`rotDestroys=false`
 - 统一部分文本用语
 
+**历史版本:**
+
+- [v1.0.2](posts/rw-mod-filter-update-2/)
+- [v1.0.1](posts/rw-mod-filter-update-1/)
+- [v1.0.0](posts/rw-mod-filter/)
+
 ### 发布与反馈
 
 **Github仓库:** https://github.com/uranv/BetterFilter
