@@ -30,9 +30,9 @@ cover:
 
 **历史版本:**
 
-- [v1.0.2](posts/rw-mod-filter-update-2/)
-- [v1.0.1](posts/rw-mod-filter-update-1/)
-- [v1.0.0](posts/rw-mod-filter/)
+- [v1.0.2](https://uranv.github.io/posts/rw-mod-filter-update-2/)
+- [v1.0.1](https://uranv.github.io/posts/rw-mod-filter-update-1/)
+- [v1.0.0](https://uranv.github.io/posts/rw-mod-filter/)
 
 ### 发布与反馈
 

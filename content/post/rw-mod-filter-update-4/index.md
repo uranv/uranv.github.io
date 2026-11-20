@@ -71,14 +71,14 @@ cover:
 
 已知问题：
 
-- 1.7 预览版在 macOS 上，触控板轻点 ✓/✗ 勾选框时经常不切换，重按正常。纯原版同样出现，本模组设置页的勾选框也受影响；「全部清除 / 反选 / 全部允许」与展开收起按钮正常。
+- 1.7 预览版在 macOS 上，触控板轻点 ✓/✗ 勾选框时经常不切换，重按正常。此为测试版原版存在的交互问题，本模组设置页的勾选框也受影响；「全部清除 / 反选 / 全部允许」与展开收起按钮正常。问题来源可能是 ✓/✗ 勾选框每次绘制时轮询“本帧是否按下 / 本帧是否松开”；导致触控板轻点时，按下和松开落在同一帧，两个标记在该帧的每一遍界面绘制中都为真，勾选框每遍都切换一次，绘制遍数为偶数时状态切回原样，为奇数时才生效，所以“偶尔正常”；「清空 / 反选 / 全选」和展开收起按钮走的是排队的鼠标事件，所以不受影响。
 
 **历史版本:**
 
-- [v1.0.3](posts/rw-mod-filter-update-3/)
-- [v1.0.2](posts/rw-mod-filter-update-2/)
-- [v1.0.1](posts/rw-mod-filter-update-1/)
-- [v1.0.0](posts/rw-mod-filter/)
+- [v1.0.3](https://uranv.github.io/posts/rw-mod-filter-update-3/)
+- [v1.0.2](https://uranv.github.io/posts/rw-mod-filter-update-2/)
+- [v1.0.1](https://uranv.github.io/posts/rw-mod-filter-update-1/)
+- [v1.0.0](https://uranv.github.io/posts/rw-mod-filter/)
 
 ### 发布与反馈
 
