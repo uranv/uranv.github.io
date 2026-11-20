@@ -20,7 +20,7 @@ searchable: false
   - [当前版本 v1.1.0](/posts/rw-mod-mark-book-update-1)
 
 - [更好的储存筛选 (Better Filter)](/posts/rw-mod-filter)
-  - [当前版本 v1.0.3](/posts/rw-mod-filter-update-3)
+  - [当前版本 v1.1.0](/posts/rw-mod-filter-update-4)
 
 - [魔女因子扩散中ー魔法少女的魔女审判拓展 (Witch's Factor Spreading - Manosaba Expansion)](/posts/rw-mod-manosaba)
   - [当前版本 v1.0.10](/posts/rw-mod-manosaba-update-12)

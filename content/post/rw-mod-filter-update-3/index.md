@@ -9,7 +9,7 @@ tags:
   - 'Mod'
   - 'Update'
   - '1.6'
-featured: true
+featured: false
 description: "v1.0.2 → v1.0.3 修复错误与改进。"
 cover:
   image: "/resources/cover-betterfilter.png"
